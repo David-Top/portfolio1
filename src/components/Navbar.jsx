@@ -4,13 +4,12 @@ import {BiMenu} from 'react-icons/bi'
 const Navbar = () => {
     const [nav, setNav] = useState(false);
     const navHandler = () => {
-        setNav(!nav);
-        /*
+        setNav(!nav);        
         if (!nav) {
             document.body.style.overflow = 'hidden';
         }else{
-            document.body.style.overflow = 'scroll'
-        } */
+            document.body.style.overflow = 'visible'
+        }
     }
   return (
     <div className='absolute w-full flex justify-between p-4 items-center'>
