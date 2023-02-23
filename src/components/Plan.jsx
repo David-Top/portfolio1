@@ -13,13 +13,13 @@ const Plan = () => {
         </div>
 
         {/* right side */}
-        <div>
-            <h3>Plan Your Trip</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam, labore.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, maiores? Totam doloremque aliquam molestiae sapiente quas cumque consectetur, labore, ex expedita earum et inventore, obcaecati id perspiciatis quidem quisquam itaque!</p>
+        <div className='flex flex-col h-full justify-center'>
+            <h3 className='text-5xl md:text-6xl font-bold'>Plan Your Trip</h3>
+            <p className='text-2xl py-6'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam, labore.</p>
+            <p className='pb-6'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, maiores? Totam doloremque aliquam molestiae sapiente quas cumque consectetur, labore, ex expedita earum et inventore, obcaecati id perspiciatis quidem quisquam itaque!</p>
             <div>
-                <button>Learn More</button>
-                <button>Book Your Trip</button>
+                <button className='border-black mr-6 hover:shadow-xl'>Learn More</button>
+                <button className='border-black bg-black text-white hover:shadow-xl'>Book Your Trip</button>
             </div>
         </div>
     </div>
