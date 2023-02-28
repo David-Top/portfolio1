@@ -6,4 +6,8 @@
   button {
     @apply border py-2 px-3 rounded-full
   }
+
+  .list-footer {
+    @apply py-2
+  }
 }

@@ -1,4 +1,5 @@
 import Carousel from "./components/Carousel";
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Offers from "./components/Offers";
@@ -13,7 +14,8 @@ function App() {
       <Offers />
       <Plan />
       <Rooms />
-      <Carousel />      
+      <Carousel />  
+      <Footer />    
     </div>
   );
 }
